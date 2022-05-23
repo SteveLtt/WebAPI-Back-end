@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonschema": "^1.4.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-passport": "^4.1.4",
+    "koa-router": "^10.1.1",
+    "mysql2": "^2.3.3",
+    "passport-http": "^0.3.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "role-acl": "^4.5.4",
+    "sequelize": "^6.19.2"
+  }
+}
