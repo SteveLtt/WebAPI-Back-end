@@ -1,0 +1,48 @@
+openapi:3.0.0
+info:
+  version:1.0.0
+  title: Back end API
+  description: A simple
+  contact:
+    name: Leung Tsz TO
+    email: toyzto@gmail.com
+  license:
+    name:Apache 2.0
+    url:'localhost:3001'
+servers:
+  - url: 'localhost'
+  description: Development server
+tags:
+  - name:Users
+    description: API end points
+  - name:dog
+    description: dog
+  paths:
+    /dog/{id}:
+    parameters:
+      - in: path
+        name: id
+        schema:
+          type:integer
+        required:true
+        description: Numberic id of the dog
+      get:
+        tags:
+          - dog
+    description:
+     Get dog by id.
+    respsonse:
+      '200':
+        description: View of an dog rc
+      '404':
+        description: dog not found
+    put:
+      tags:
+        - dog
+    description:
+      update dog by id
+    respsonse:
+      '200':
+        description: View of an dog rc
+      '404':
+        description: dog not found
