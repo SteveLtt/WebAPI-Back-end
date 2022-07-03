@@ -1,7 +1,7 @@
 //const { DESCRIBE } = require('sequelize/types/query-types')
 const request = require('supertest')
 const app = require('./common/index')
-const helper = require('./common/helper')
+
 const expected_fav = {
     "id": 1,
     "dog_id": 1,
