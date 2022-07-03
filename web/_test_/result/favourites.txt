@@ -1,0 +1,15 @@
+tsztoleung@3ca6f657631a _test_ % yarn jest favorites.test.js
+yarn run v1.22.15
+$ /Users/tsztoleung/Desktop/api_backend/WebAPI-Back-end/web/node_modules/.bin/jest favorites.test.js
+
+ PASS  _test_/favorites.test.js
+  Favourites authentication Testing Cases
+    ✓ List all favourites by user (160 ms)
+    ✓ Add favourites by user (48 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        0.508 s, estimated 1 s
+Ran all test suites matching /favorites.test.js/i.
+✨  Done in 0.97s.
