@@ -1,7 +1,7 @@
 //const { DESCRIBE } = require('sequelize/types/query-types')
 const request = require('supertest')
 const app = require('./common/index')
-const helper = require('./common/helper')
+
 const expected_API = {
     "message": "PUBLIC PAGE: You requested a new message URI (root) of the API"
 }
