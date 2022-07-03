@@ -7,6 +7,7 @@
     "@koa/cors": "^3.3.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "jest": "^28.1.2",
     "jsonschema": "^1.4.1",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
@@ -17,6 +18,17 @@
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
     "role-acl": "^4.5.4",
-    "sequelize": "^6.19.2"
+    "sequelize": "^6.19.2",
+    "supertest": "^6.2.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
   }
 }

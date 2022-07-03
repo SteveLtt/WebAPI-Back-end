@@ -1,0 +1,20 @@
+tsztoleung@3ca6f657631a _test_ % yarn jest dog.test.js
+yarn run v1.22.15
+$ /Users/tsztoleung/Desktop/api_backend/WebAPI-Back-end/web/node_modules/.bin/jest dog.test.js
+
+ PASS  _test_/dog.test.js
+  Dogs authentication Testing Cases
+    ✓ Return all dogs (229 ms)
+    ✓ Return dogs by center (36 ms)
+    ✓ Return dog by id (28 ms)
+    ✓ Create a new dog (84 ms)
+    ✓ Edit dog detail (77 ms)
+    ✓ remove dog by id (27 ms)
+    ✓ Search dog by keyword (30 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        0.897 s, estimated 1 s
+Ran all test suites matching /dog.test.js/i.
+✨  Done in 1.78s.
