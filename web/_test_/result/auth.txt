@@ -1,0 +1,14 @@
+tsztoleung@3ca6f657631a _test_ % yarn jest auth.test.js                
+yarn run v1.22.15
+$ /Users/tsztoleung/Desktop/api_backend/WebAPI-Back-end/web/node_modules/.bin/jest auth.test.js
+  
+ PASS  _test_/auth.test.js
+  Authentication Testing Cases
+    ✓ Center staff Login (332 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.775 s, estimated 1 s
+Ran all test suites matching /auth.test.js/i.
+✨  Done in 1.62s.
