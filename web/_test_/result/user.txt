@@ -1,0 +1,20 @@
+tsztoleung@3ca6f657631a _test_ % yarn jest user.test.js        
+yarn run v1.22.15
+$ /Users/tsztoleung/Desktop/api_backend/WebAPI-Back-end/web/node_modules/.bin/jest user.test.js
+
+ PASS  _test_/user.test.js
+  Users authentication Testing Cases
+    ✓ Test User api (12 ms)
+    ✓ Center staff Login (191 ms)
+    ✓ Check center user signup code and return information (42 ms)
+    ✓ Create a new center staff (79 ms)
+    ✓ Create a new User (54 ms)
+    ✓ User Login (47 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        0.775 s, estimated 1 s
+Ran all test suites matching /user.test.js/i.
+✨  Done in 1.76s.
+tsztoleung@3ca6f657631a _test_ % 
